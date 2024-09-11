@@ -1,0 +1,9 @@
+Explain in your own words what is an approval:
+- an approval is an event created on the blockchain when an address is given authorization to execute a transfers to another recipient,
+capped at the amount of specified allowed transfers.
+
+what are the differences between a transfer to a transferFrom function:
+- in short, the difference between a transfer and a transferFrom function, is that the transferFrom function will often be used when token exchange is being done using
+a third party, whereas the transfer function will be used by the holder of the token directly. the transfer function receives an address, and an amount, and will
+make the transfer from the current address. transferFrom will additionally require the address of the sender, and requires that the sender address has issued an
+approval within the specified amount to the recipient address
