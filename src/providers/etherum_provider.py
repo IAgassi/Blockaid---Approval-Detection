@@ -1,6 +1,6 @@
-from models.erc20eventsignature import Erc20EventSignature
 from web3 import Web3
 from xml.dom import NotFoundErr
+from models.erc20eventsignature import Erc20EventSignature
 
 
 class EtherumLogProvider:
